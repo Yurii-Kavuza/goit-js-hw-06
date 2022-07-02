@@ -23,6 +23,30 @@
       href="image/png/favicon-32x32.png"
       sizes="32x32"
     />
+    <style>
+      .gallery {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .gallery__item {
+        list-style: none;
+      }
+
+      .gallery__item img {
+        width: 300px;
+        height: auto;
+      }
+
+      #validation-input.valid {
+        border-color: #4caf50;
+      }
+
+      #validation-input.invalid {
+        border-color: #f44336;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
